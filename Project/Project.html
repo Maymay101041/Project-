@@ -1,0 +1,39 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+       <h1> หลักสูตรที่พนักงานต้องการอบรม </h1>
+       <form id="trainingForm">
+
+        <label for="fullname" style="color: red; font-size: 20px;">ชื่อ-สกุล:</label>
+       <input type="text" id="fullname"><br><br>
+
+       <label for="Section" style="color: red; font-size: 20px;">หน่วยงาน: </label>
+       <input type="text" id="section"><br><br>
+
+       <label style="color: purple; font-size: 20px;">โปรดเลือกหลักสูตรที่ต้องการอบรม</label><br><br>
+
+       <button type="button" onclick="selectCourse('การทำงานเป็นทีม')">การทำงานเป็นทีม</button>
+        <button type="button" onclick="selectCourse('การสื่อสารและการประสานงาน')">การสื่อสารและการประสานงาน</button>
+        <button type="button" onclick="selectCourse('การเป็นผู้นำ')">การเป็นผู้นำ</button>
+        <button type="button" onclick="selectCourse('การวิเคราะห์และแก้ไขปัญหา')">การวิเคราะห์และแก้ไขปัญหา</button>
+        
+        </form>
+        
+        <p id="result"></p>
+
+        <script src="temperatureconvert.js"></script>
+  </script>
+       
+
+
+
+
+
+
+
+
+        
+    </body>
+</html>
